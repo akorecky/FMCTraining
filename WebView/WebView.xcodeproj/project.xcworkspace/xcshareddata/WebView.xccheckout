@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92AAA485-F6DB-47BA-82D8-8483A4903A9E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WebView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B28AB81B-A03A-459B-B437-A141A192D2D8</key>
+		<string>https://github.com/akorecky/FMCTraining.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WebView/WebView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B28AB81B-A03A-459B-B437-A141A192D2D8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/akorecky/FMCTraining.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B28AB81B-A03A-459B-B437-A141A192D2D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B28AB81B-A03A-459B-B437-A141A192D2D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FMC_Training</string>
+		</dict>
+	</array>
+</dict>
+</plist>

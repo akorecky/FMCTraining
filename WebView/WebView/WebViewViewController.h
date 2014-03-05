@@ -10,6 +10,8 @@
 
 @interface WebViewViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *urlTextF;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)loadPage:(id)sender;
 
 @end

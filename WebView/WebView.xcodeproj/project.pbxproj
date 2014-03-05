@@ -461,6 +461,7 @@
 				CEE1BAEA18C53D7B00A29578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEE1BAEB18C53D7B00A29578 /* Build configuration list for PBXNativeTarget "WebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				CEE1BAED18C53D7B00A29578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

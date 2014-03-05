@@ -13,15 +13,14 @@
 @end
 
 @implementation WebViewViewController
-@synthesize webView;
+@synthesize webView, urlTextF;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	
-    NSURL *theURL = [NSURL URLWithString:@"http://www.google.com"];
+    NSURL *theURL = [NSURL URLWithString:@"http://www.cnn.com"];
     NSURLRequest *theRequest = [NSURLRequest requestWithURL:theURL];
-    
     [webView loadRequest:theRequest];
 }
 
@@ -31,4 +30,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loadPage:(id)sender {
+    NSLog(@"Got Here: %@", urlTextF.text);
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:
+                                                       [NSString stringWithFormat:@"http://%@", urlTextF.text]]]];
+    [urlTextF resignFirstResponder];
+}
 @end

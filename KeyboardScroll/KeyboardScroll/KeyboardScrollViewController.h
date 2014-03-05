@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KeyboardScrollViewController : UIViewController
+@interface KeyboardScrollViewController : UIViewController <UITextFieldDelegate> {
+    UITextField *currentTextField;
+    BOOL keyboardIsShown;
+}
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+- (IBAction)closeKeyboard:(id)sender;
 
 @end

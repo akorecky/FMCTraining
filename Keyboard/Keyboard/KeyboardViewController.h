@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KeyboardViewController : UIViewController
+@interface KeyboardViewController : UIViewController <UITextFieldDelegate>
+
+
+//upon hit of return button
+-(IBAction)hideKeyboard:(id)sender;
+
+
+- (IBAction)determineTextField:(id)sender;
+
+- (IBAction)dismissKeyboard:(id)sender;
 
 @end

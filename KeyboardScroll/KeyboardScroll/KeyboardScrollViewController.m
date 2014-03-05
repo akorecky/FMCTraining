@@ -108,4 +108,13 @@
     NSLog(@"closeKeyboard");
     [currentTextField resignFirstResponder];
 }
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesBegan");
+    UITouch *touch = [[event allTouches] anyObject];
+    if ([currentTextField isFirstResponder] && [touch view] != currentTextField) {
+        [currentTextField resignFirstResponder];
+    }
+    [super touchesBegan:touches withEvent:event];
+}
 @end

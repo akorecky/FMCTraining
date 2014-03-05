@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8450B518C7A2C1003E067E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8450B418C7A2C1003E067E /* Foundation.framework */; };
+		CE8450B718C7A2C1003E067E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8450B618C7A2C1003E067E /* CoreGraphics.framework */; };
+		CE8450B918C7A2C1003E067E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8450B818C7A2C1003E067E /* UIKit.framework */; };
+		CE8450BF18C7A2C1003E067E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8450BD18C7A2C1003E067E /* InfoPlist.strings */; };
+		CE8450C118C7A2C1003E067E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8450C018C7A2C1003E067E /* main.m */; };
+		CE8450C518C7A2C1003E067E /* PostingNotificiationsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8450C418C7A2C1003E067E /* PostingNotificiationsAppDelegate.m */; };
+		CE8450C818C7A2C1003E067E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8450C618C7A2C1003E067E /* Main.storyboard */; };
+		CE8450CB18C7A2C1003E067E /* PostingNotificiationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8450CA18C7A2C1003E067E /* PostingNotificiationsViewController.m */; };
+		CE8450CD18C7A2C1003E067E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8450CC18C7A2C1003E067E /* Images.xcassets */; };
+		CE8450D418C7A2C1003E067E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8450D318C7A2C1003E067E /* XCTest.framework */; };
+		CE8450D518C7A2C1003E067E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8450B418C7A2C1003E067E /* Foundation.framework */; };
+		CE8450D618C7A2C1003E067E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8450B818C7A2C1003E067E /* UIKit.framework */; };
+		CE8450DE18C7A2C1003E067E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8450DC18C7A2C1003E067E /* InfoPlist.strings */; };
+		CE8450E018C7A2C1003E067E /* PostingNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8450DF18C7A2C1003E067E /* PostingNotificationTests.m */; };
+		CE8450EB18C7A421003E067E /* CustomAVDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8450EA18C7A421003E067E /* CustomAVDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8450D718C7A2C1003E067E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8450A918C7A2C1003E067E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8450B018C7A2C1003E067E;
+			remoteInfo = PostingNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8450B118C7A2C1003E067E /* PostingNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostingNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8450B418C7A2C1003E067E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE8450B618C7A2C1003E067E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE8450B818C7A2C1003E067E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8450BC18C7A2C1003E067E /* PostingNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostingNotification-Info.plist"; sourceTree = "<group>"; };
+		CE8450BE18C7A2C1003E067E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8450C018C7A2C1003E067E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8450C218C7A2C1003E067E /* PostingNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PostingNotification-Prefix.pch"; sourceTree = "<group>"; };
+		CE8450C318C7A2C1003E067E /* PostingNotificiationsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostingNotificiationsAppDelegate.h; sourceTree = "<group>"; };
+		CE8450C418C7A2C1003E067E /* PostingNotificiationsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostingNotificiationsAppDelegate.m; sourceTree = "<group>"; };
+		CE8450C718C7A2C1003E067E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8450C918C7A2C1003E067E /* PostingNotificiationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostingNotificiationsViewController.h; sourceTree = "<group>"; };
+		CE8450CA18C7A2C1003E067E /* PostingNotificiationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostingNotificiationsViewController.m; sourceTree = "<group>"; };
+		CE8450CC18C7A2C1003E067E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE8450D218C7A2C1003E067E /* PostingNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostingNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8450D318C7A2C1003E067E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE8450DB18C7A2C1003E067E /* PostingNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostingNotificationTests-Info.plist"; sourceTree = "<group>"; };
+		CE8450DD18C7A2C1003E067E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8450DF18C7A2C1003E067E /* PostingNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostingNotificationTests.m; sourceTree = "<group>"; };
+		CE8450E918C7A421003E067E /* CustomAVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAVDelegate.h; sourceTree = "<group>"; };
+		CE8450EA18C7A421003E067E /* CustomAVDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAVDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8450AE18C7A2C1003E067E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8450B718C7A2C1003E067E /* CoreGraphics.framework in Frameworks */,
+				CE8450B918C7A2C1003E067E /* UIKit.framework in Frameworks */,
+				CE8450B518C7A2C1003E067E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8450CF18C7A2C1003E067E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8450D418C7A2C1003E067E /* XCTest.framework in Frameworks */,
+				CE8450D618C7A2C1003E067E /* UIKit.framework in Frameworks */,
+				CE8450D518C7A2C1003E067E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8450A818C7A2C1003E067E = {
+			isa = PBXGroup;
+			children = (
+				CE8450BA18C7A2C1003E067E /* PostingNotification */,
+				CE8450D918C7A2C1003E067E /* PostingNotificationTests */,
+				CE8450B318C7A2C1003E067E /* Frameworks */,
+				CE8450B218C7A2C1003E067E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8450B218C7A2C1003E067E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8450B118C7A2C1003E067E /* PostingNotification.app */,
+				CE8450D218C7A2C1003E067E /* PostingNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8450B318C7A2C1003E067E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8450B418C7A2C1003E067E /* Foundation.framework */,
+				CE8450B618C7A2C1003E067E /* CoreGraphics.framework */,
+				CE8450B818C7A2C1003E067E /* UIKit.framework */,
+				CE8450D318C7A2C1003E067E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8450BA18C7A2C1003E067E /* PostingNotification */ = {
+			isa = PBXGroup;
+			children = (
+				CE8450C318C7A2C1003E067E /* PostingNotificiationsAppDelegate.h */,
+				CE8450C418C7A2C1003E067E /* PostingNotificiationsAppDelegate.m */,
+				CE8450C618C7A2C1003E067E /* Main.storyboard */,
+				CE8450C918C7A2C1003E067E /* PostingNotificiationsViewController.h */,
+				CE8450CA18C7A2C1003E067E /* PostingNotificiationsViewController.m */,
+				CE8450E918C7A421003E067E /* CustomAVDelegate.h */,
+				CE8450EA18C7A421003E067E /* CustomAVDelegate.m */,
+				CE8450CC18C7A2C1003E067E /* Images.xcassets */,
+				CE8450BB18C7A2C1003E067E /* Supporting Files */,
+			);
+			path = PostingNotification;
+			sourceTree = "<group>";
+		};
+		CE8450BB18C7A2C1003E067E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8450BC18C7A2C1003E067E /* PostingNotification-Info.plist */,
+				CE8450BD18C7A2C1003E067E /* InfoPlist.strings */,
+				CE8450C018C7A2C1003E067E /* main.m */,
+				CE8450C218C7A2C1003E067E /* PostingNotification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8450D918C7A2C1003E067E /* PostingNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8450DF18C7A2C1003E067E /* PostingNotificationTests.m */,
+				CE8450DA18C7A2C1003E067E /* Supporting Files */,
+			);
+			path = PostingNotificationTests;
+			sourceTree = "<group>";
+		};
+		CE8450DA18C7A2C1003E067E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8450DB18C7A2C1003E067E /* PostingNotificationTests-Info.plist */,
+				CE8450DC18C7A2C1003E067E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8450B018C7A2C1003E067E /* PostingNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8450E318C7A2C1003E067E /* Build configuration list for PBXNativeTarget "PostingNotification" */;
+			buildPhases = (
+				CE8450AD18C7A2C1003E067E /* Sources */,
+				CE8450AE18C7A2C1003E067E /* Frameworks */,
+				CE8450AF18C7A2C1003E067E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostingNotification;
+			productName = PostingNotification;
+			productReference = CE8450B118C7A2C1003E067E /* PostingNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8450D118C7A2C1003E067E /* PostingNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8450E618C7A2C1003E067E /* Build configuration list for PBXNativeTarget "PostingNotificationTests" */;
+			buildPhases = (
+				CE8450CE18C7A2C1003E067E /* Sources */,
+				CE8450CF18C7A2C1003E067E /* Frameworks */,
+				CE8450D018C7A2C1003E067E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8450D818C7A2C1003E067E /* PBXTargetDependency */,
+			);
+			name = PostingNotificationTests;
+			productName = PostingNotificationTests;
+			productReference = CE8450D218C7A2C1003E067E /* PostingNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8450A918C7A2C1003E067E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PostingNotificiations;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = FMCAdmin;
+				TargetAttributes = {
+					CE8450D118C7A2C1003E067E = {
+						TestTargetID = CE8450B018C7A2C1003E067E;
+					};
+				};
+			};
+			buildConfigurationList = CE8450AC18C7A2C1003E067E /* Build configuration list for PBXProject "PostingNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8450A818C7A2C1003E067E;
+			productRefGroup = CE8450B218C7A2C1003E067E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8450B018C7A2C1003E067E /* PostingNotification */,
+				CE8450D118C7A2C1003E067E /* PostingNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8450AF18C7A2C1003E067E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8450CD18C7A2C1003E067E /* Images.xcassets in Resources */,
+				CE8450BF18C7A2C1003E067E /* InfoPlist.strings in Resources */,
+				CE8450C818C7A2C1003E067E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8450D018C7A2C1003E067E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8450DE18C7A2C1003E067E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8450AD18C7A2C1003E067E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8450C518C7A2C1003E067E /* PostingNotificiationsAppDelegate.m in Sources */,
+				CE8450C118C7A2C1003E067E /* main.m in Sources */,
+				CE8450EB18C7A421003E067E /* CustomAVDelegate.m in Sources */,
+				CE8450CB18C7A2C1003E067E /* PostingNotificiationsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8450CE18C7A2C1003E067E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8450E018C7A2C1003E067E /* PostingNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8450D818C7A2C1003E067E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8450B018C7A2C1003E067E /* PostingNotification */;
+			targetProxy = CE8450D718C7A2C1003E067E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8450BD18C7A2C1003E067E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8450BE18C7A2C1003E067E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE8450C618C7A2C1003E067E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8450C718C7A2C1003E067E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8450DC18C7A2C1003E067E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8450DD18C7A2C1003E067E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8450E118C7A2C1003E067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE8450E218C7A2C1003E067E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8450E418C7A2C1003E067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostingNotification/PostingNotification-Prefix.pch";
+				INFOPLIST_FILE = "PostingNotification/PostingNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8450E518C7A2C1003E067E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostingNotification/PostingNotification-Prefix.pch";
+				INFOPLIST_FILE = "PostingNotification/PostingNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE8450E718C7A2C1003E067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PostingNotification.app/PostingNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostingNotification/PostingNotification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PostingNotificationTests/PostingNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE8450E818C7A2C1003E067E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PostingNotification.app/PostingNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostingNotification/PostingNotification-Prefix.pch";
+				INFOPLIST_FILE = "PostingNotificationTests/PostingNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8450AC18C7A2C1003E067E /* Build configuration list for PBXProject "PostingNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8450E118C7A2C1003E067E /* Debug */,
+				CE8450E218C7A2C1003E067E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8450E318C7A2C1003E067E /* Build configuration list for PBXNativeTarget "PostingNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8450E418C7A2C1003E067E /* Debug */,
+				CE8450E518C7A2C1003E067E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE8450E618C7A2C1003E067E /* Build configuration list for PBXNativeTarget "PostingNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8450E718C7A2C1003E067E /* Debug */,
+				CE8450E818C7A2C1003E067E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8450A918C7A2C1003E067E /* Project object */;
+}

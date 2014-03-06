@@ -21,6 +21,12 @@
     scrollView.frame = CGRectMake(0, 0, 320, 568);
     scrollView.contentSize = CGSizeMake(320,1200);
     
+    
+    //Closes keyboard when user taps outside of a textfield or keyboard.
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                    action:@selector(hideKeyboard)];
+    [self.view addGestureRecognizer:tapRecognizer];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -109,12 +115,19 @@
     [currentTextField resignFirstResponder];
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    NSLog(@"touchesBegan");
-    UITouch *touch = [[event allTouches] anyObject];
-    if ([currentTextField isFirstResponder] && [touch view] != currentTextField) {
-        [currentTextField resignFirstResponder];
-    }
-    [super touchesBegan:touches withEvent:event];
+- (void) hideKeyboard {
+    
+    NSLog(@"hideKeyboard");
+    [currentTextField resignFirstResponder];
 }
+
+//This can be used to close keyboard when user clicks outside of textbox or keyboard when UIScrollView is not used
+//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+//    NSLog(@"touchesBegan");
+//    UITouch *touch = [[event allTouches] anyObject];
+//    if ([currentTextField isFirstResponder] && [touch view] != currentTextField) {
+//        [currentTextField resignFirstResponder];
+//    }
+//    [super touchesBegan:touches withEvent:event];
+//}
 @end

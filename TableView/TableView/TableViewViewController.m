@@ -50,11 +50,9 @@ NSMutableArray *candyArray;
 
     NSLog(@"candyArray = %@", candyArray);
     
-    
-    
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
+//required by uitableview delegate and uitableviewdatasource
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return candyArray.count;
 }
@@ -77,6 +75,10 @@ NSMutableArray *candyArray;
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
     }
+    
+//    if (candy.imported) {
+//        cell.backgroundColor = [UIColor orangeColor];
+//    }
     
     NSLog(@"indexPath: (section.row) = %i.%i", indexPath.section, indexPath.row);
     cell.textLabel.text = candy.name;
@@ -112,6 +114,17 @@ NSMutableArray *candyArray;
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    Candy *candy = [candyArray objectAtIndex:indexPath.row];
+    UIAlertView *view = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"%@ Candy", candy.name] message:@"This candy is your favorite." delegate:self cancelButtonTitle:@"Yeah" otherButtonTitles:nil, nil];
+    
+    UITableView[tableView cellForRowAtIndexPath:indexPath];
+    
+[view show];
+    
 }
 
 @end

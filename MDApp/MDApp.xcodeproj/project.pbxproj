@@ -22,6 +22,7 @@
 		CE84530718C7DCC2003E067E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8452E618C7DCC1003E067E /* UIKit.framework */; };
 		CE84530F18C7DCC2003E067E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE84530D18C7DCC2003E067E /* InfoPlist.strings */; };
 		CE84531118C7DCC2003E067E /* MDAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE84531018C7DCC2003E067E /* MDAppTests.m */; };
+		CE84531B18C8D239003E067E /* Movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE84531A18C8D239003E067E /* Movies.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		CE84530C18C7DCC2003E067E /* MDAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDAppTests-Info.plist"; sourceTree = "<group>"; };
 		CE84530E18C7DCC2003E067E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE84531018C7DCC2003E067E /* MDAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppTests.m; sourceTree = "<group>"; };
+		CE84531A18C8D239003E067E /* Movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Movies.plist; path = ../Movies.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		CE8452E818C7DCC1003E067E /* MDApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE84531A18C8D239003E067E /* Movies.plist */,
 				CE8452F118C7DCC2003E067E /* MDAppAppDelegate.h */,
 				CE8452F218C7DCC2003E067E /* MDAppAppDelegate.m */,
 				CE8452F418C7DCC2003E067E /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8452FE18C7DCC2003E067E /* Images.xcassets in Resources */,
+				CE84531B18C8D239003E067E /* Movies.plist in Resources */,
 				CE8452ED18C7DCC1003E067E /* InfoPlist.strings in Resources */,
 				CE8452F618C7DCC2003E067E /* Main.storyboard in Resources */,
 			);
@@ -467,6 +471,7 @@
 				CE84531618C7DCC2003E067E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE84531718C7DCC2003E067E /* Build configuration list for PBXNativeTarget "MDAppTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				CE84531918C7DCC2003E067E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

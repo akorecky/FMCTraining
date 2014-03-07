@@ -21,6 +21,7 @@
 		CE5F2B4A18C92B6E00F9065B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F2B2C18C92B6E00F9065B /* UIKit.framework */; };
 		CE5F2B5218C92B6E00F9065B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE5F2B5018C92B6E00F9065B /* InfoPlist.strings */; };
 		CE5F2B5418C92B6E00F9065B /* FilesHandlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5F2B5318C92B6E00F9065B /* FilesHandlingTests.m */; };
+		CE5F2B5E18CA2D2900F9065B /* highScores.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE5F2B5D18CA2D2900F9065B /* highScores.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CE5F2B4F18C92B6E00F9065B /* FilesHandlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilesHandlingTests-Info.plist"; sourceTree = "<group>"; };
 		CE5F2B5118C92B6E00F9065B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE5F2B5318C92B6E00F9065B /* FilesHandlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilesHandlingTests.m; sourceTree = "<group>"; };
+		CE5F2B5D18CA2D2900F9065B /* highScores.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = highScores.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		CE5F2B2E18C92B6E00F9065B /* FilesHandling */ = {
 			isa = PBXGroup;
 			children = (
+				CE5F2B5D18CA2D2900F9065B /* highScores.txt */,
 				CE5F2B3718C92B6E00F9065B /* FilesHandlingAppDelegate.h */,
 				CE5F2B3818C92B6E00F9065B /* FilesHandlingAppDelegate.m */,
 				CE5F2B3A18C92B6E00F9065B /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				CE5F2B4118C92B6E00F9065B /* Images.xcassets in Resources */,
 				CE5F2B3318C92B6E00F9065B /* InfoPlist.strings in Resources */,
 				CE5F2B3C18C92B6E00F9065B /* Main.storyboard in Resources */,
+				CE5F2B5E18CA2D2900F9065B /* highScores.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +465,7 @@
 				CE5F2B5918C92B6F00F9065B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5F2B5A18C92B6F00F9065B /* Build configuration list for PBXNativeTarget "FilesHandlingTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				CE5F2B5C18C92B6F00F9065B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

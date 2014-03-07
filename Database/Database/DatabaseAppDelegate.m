@@ -1,48 +1,21 @@
 //
-//  FilesHandlingAppDelegate.m
-//  FilesHandling
+//  DatabaseAppDelegate.m
+//  Database
 //
-//  Created by FMCAdmin on 3/6/14.
+//  Created by FMCAdmin on 3/7/14.
 //  Copyright (c) 2014 FMCAdmin. All rights reserved.
 //
 
-#import "FilesHandlingAppDelegate.h"
+#import "DatabaseAppDelegate.h"
 
-@implementation FilesHandlingAppDelegate
+@implementation DatabaseAppDelegate
 
-
-
--(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self copyFileInBundleToDocumentFolder:@"highScores" withExtension:@".txt"];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
     return YES;
 }
-
-
-
-
--(void)copyFileInBundleToDocumentFolder:(NSString *) fileName withExtension:(NSString *)ext{
-    NSArray *pathArray = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES);
-    NSString *documentsFolderDir = [pathArray objectAtIndex:0];
-    NSString *fullFileName = [documentsFolderDir stringByAppendingPathComponent:fileName];
-    NSString *finalFileName = [fullFileName stringByAppendingString:ext];
-    NSLog(@"finalFileName = %@", finalFileName);
-    
-    NSFileManager *fileManager  = [NSFileManager defaultManager];
-    
-    if(! [fileManager fileExistsAtPath:finalFileName]) {
-        NSString *pathToBundleFile = [[NSBundle mainBundle] pathForResource:fileName ofType:ext];
-        NSError *error;
-        BOOL success = [fileManager copyItemAtPath:pathToBundleFile toPath:finalFileName error: &error];
-
-        NSLog(@"The file copy %@.", success ? @"worked" : @"did not work");
-    }
-    else NSLog(@"File already exitst!");
-    
-}
-
-
-
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -69,7 +42,5 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
 
 @end

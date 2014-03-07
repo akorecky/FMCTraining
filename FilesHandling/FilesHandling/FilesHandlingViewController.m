@@ -17,14 +17,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *fileName = [[self documentsFolderPath] stringByAppendingPathComponent:@"myTextFile.txt"];
-    
-    [self writeToFile:@"iOS App Development is SO, MUCH, FUN ..." toFileName:fileName];
-    
-    NSString *fileContents = [self readFromFilePath:fileName];
-    
-    NSLog(@"The file's contents are: \n%@", fileContents);
-    
+//    NSString *fileName = [[self documentsFolderPath] stringByAppendingPathComponent:@"myTextFile.txt"];
+//    
+//    [self writeToFile:@"iOS App Development is SO, MUCH, FUN ..." toFileName:fileName];
+//    
+//    NSString *fileContents = [self readFromFilePath:fileName];
+//    
+//    NSLog(@"The file's contents are: \n%@", fileContents);
+//    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
